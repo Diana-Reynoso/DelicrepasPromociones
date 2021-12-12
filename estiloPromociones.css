@@ -1,0 +1,385 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*                                 Estilo navegador y elementos*/
+div#contenedorNavegador1{
+	background-color: #222121;
+	width: auto;
+	height: 120px;
+	margin: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+img#imgLogo{
+	margin: 8px 0px 0px 35px;
+}
+
+div#contenedorNavegador2{
+	background-color: #222121;
+	width: 1275px;
+	height: 119px;
+	margin: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+a#texto1{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 30px;
+	margin: 0px 0px 0px 0px;
+	font-family: Candara
+}
+
+a#texto1:hover{
+	color: #D19812;
+	font-size: 32px;
+}
+
+a#texto{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 30px;
+	margin: 0px 0px 0px 110px;
+	font-family: Candara
+}
+
+a#texto:hover{
+	color: #D19812;
+	font-size: 32px;
+}
+
+/*                                          Estilo inicio Promociones*/
+div#idPaquetes{
+	background: url('Fotos/fondoPromos.png');
+	background-attachment: fixed;
+	background-size: cover;
+	width: auto;
+	height: 505px;
+	margin: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*                                          Estilo Promociones*/
+div#idGlobal{
+	background-color: white;
+	width: auto;
+	height: 3800px;
+}
+
+img#PPC{
+	margin: 50px 0px 25px 0px;
+}
+
+img#PPC1{
+	margin: 50px 0px 25px 0px;
+}
+
+div#promos{
+	background-color: white;
+	width: 1348;
+	height: 600;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0px 0px 30px 0px;
+}
+
+div#promos1{
+	background-color: white;
+	width: 1348;
+	height: 600;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div#promos img{
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+div#promos1 img{
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+div#promos img:hover{
+	width: 394px;
+	height: 520.66px;
+}
+
+div#promos1 img:hover{
+	width: 394px;
+	height: 520.66px;
+}
+
+/*                            Estilo cupones*/
+
+div#cupones{
+	background-color: white;
+	width: 1348;
+	height: 600;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0px 0px 30px 0px;
+}
+
+div#cupones div{
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+div#cupon1{
+	background: url(Cupones/moras.png);
+	background-size: cover;
+	width: 380px;
+	height: 506.66px;
+}
+
+div#cupon1:hover{
+	background: url(Cupones/moras1.png);
+	background-size:cover;
+	width: 394px;
+	height: 520.66px;
+}
+
+div#cupon2{
+	background: url(Cupones/cafe.gif);
+	background-size: cover;
+	width: 380px;
+	height: 506.66px;
+}
+
+div#cupon2:hover{
+	background: url(Cupones/cafe1.gif);
+	background-size: cover;
+	width: 394px;
+	height: 520.66px;
+}
+
+div#cupon3{
+	background: url(Cupones/BaileysE.png);
+	background-size: cover;
+	width: 380px;
+	height: 506.66px;
+}
+
+div#cupon3:hover{
+	background: url(Cupones/BaileysE1.png);
+	background-size: cover;
+	width: 394px;
+	height: 520.66px;
+}
+
+div#cupones1{
+	background-color: white;
+	width: 1348;
+	height: 600;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div#cupones1 div{
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+div#cupon21{
+	background: url(Cupones/Kahlua.png);
+	background-size: cover;
+	width: 380px;
+	height: 506.66px;
+}
+
+div#cupon21:hover{
+	background: url(Cupones/Kahlua1.png);
+	background-size:cover;
+	width: 394px;
+	height: 520.66px;
+}
+
+div#cupon22{
+	background: url(Cupones/Malteadas.gif);
+	background-size: cover;
+	width: 380px;
+	height: 506.66px;
+}
+
+div#cupon22:hover{
+	background: url(Cupones/Malteadas1.gif);
+	background-size: cover;
+	width: 394px;
+	height: 520.66px;
+}
+
+div#cupon23{
+	background: url(Cupones/Tes.png);
+	background-size: cover;
+	width: 380px;
+	height: 506.66px;
+}
+
+div#cupon23:hover{
+	background: url(Cupones/Tes1.png);
+	background-size: cover;
+	width: 394px;
+	height: 520.66px;
+}
+
+/*                            Estilo de contenedor de datos y elementos*/
+div#contenedorDatos{
+	background: url('Fotos/f4.jpg');
+	background-size: cover;	
+	width: auto;
+	height: 250px;
+	margin: 0px;
+	display: flex;
+}
+
+div#contenedorRedes{
+	width: 268px;
+	height: 248px;
+	margin: 0px;
+}
+
+h3#follow{
+	color: white;
+	margin: 2px 0px 0px 80px;
+}
+
+img#iconos{
+	margin: 10px 0px 0px 32px;
+}
+
+div#contenedorEnlaces{
+	width: 270px;
+	height: 248px;
+	margin: 0px;
+}
+
+
+h4#ER{
+	color: white;
+	font-size: 20px;
+	margin: 65px 0px 0px 20px;
+}
+
+h4#CopyR{
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	margin: 40px 0px 0px 20px;
+}
+
+div#contenedorEnlaces a{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	margin: 5px 0px 0px 20px;
+}
+
+div#contenedorEnlaces a:hover{
+	color: #D19812;
+	font-weight: bold;
+}
+
+div#contenedorContacto{
+	width: 270px;
+	height: 248px;
+	margin: 0px;
+}
+
+h4#contact{
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	margin: 65px 0px 0px 0px;
+}
+
+h4#contact1{
+	color: white;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0px;
+}
+
+h4#contact2{
+	color: white;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0px;
+}
+
+h4#contact3{
+	color: white;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0px;
+}
+
+h4#contact4{
+	color: white;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0px;
+}
+
+div#contenedorHorarios{
+	width: 270px;
+	height: 248px;
+	margin: 0px;
+}
+
+h4#horario{
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	margin: 55px 0px 0px 30px;
+}
+
+h4#horario1{
+	color: white;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0px 0px 0px 30px;
+}
+
+h4#horario2{
+	color: white;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0px 0px 0px 30px;
+}
+
+h4#horario3{
+	color: white;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0px 0px 0px 30px;
+}
+
+h4#horario4{
+	color: white;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0px 0px 0px 30px;
+}
+
+div#contenedorFinal{
+	width: 270px;
+	height: 248px;
+	margin: 0px;
+}
